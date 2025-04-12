@@ -20,9 +20,9 @@ void setup() {
 }
 
 void loop() {
-  int jarak = sonar.ping_cm();
+  int vic_jarak = sonar.ping_cm();
 
-  if (jarak > 0 && jarak <= 30) {
+  if (vic_jarak > 0 && vic_jarak <= 30) {
     Serial.println("Tangan terdeteksi! Membuka tempat sampah...");
 
     myservo.write(0);     // Putar arah buka
