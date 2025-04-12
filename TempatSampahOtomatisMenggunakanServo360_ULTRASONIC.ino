@@ -1,3 +1,6 @@
+//TEMPAT SAMPAH OTOMATIS MENGGUNAKAN SERVO 360 DAN ULTRASONIC
+//BY MUHAMMAD VICKY FIRNANSYAH 
+//https://github.com/VICKYFIRNANSYAH
 #include <Servo.h>
 #include <NewPing.h>
 
@@ -13,6 +16,7 @@ void setup() {
   Serial.begin(9600);
   myservo.attach(SERVO_PIN);
   myservo.write(90); // stop awal
+  //https://github.com/VICKYFIRNANSYAH
 }
 
 void loop() {
