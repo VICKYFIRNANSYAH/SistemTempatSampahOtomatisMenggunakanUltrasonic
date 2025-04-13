@@ -1,3 +1,6 @@
+//TEMPAT SAMPAH OTOMATIS MENGGUNAKAN SERVO MG90S DAN ULTRASONIC
+//BY MUHAMMAD VICKY FIRNANSYAH 
+//https://github.com/VICKYFIRNANSYAH
 #include <Servo.h>
 #include <NewPing.h>
 
@@ -23,6 +26,7 @@ void setup() {
   digitalWrite(LED_PIN, LOW);
 
   Serial.begin(9600);
+  //https://github.com/VICKYFIRNANSYAH
 }
 
 void loop() {
